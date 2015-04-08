@@ -7,8 +7,8 @@ union() {
     
     translate([15,65,-10]) {
         difference() {
-            cylinder(d=40,h=10,$fn=50);
-            cylinder(d=30.6,h=10,$fn=50);
+            cylinder(r=20,h=10,$fn=50);
+            cylinder(r=15.3,h=10,$fn=50);
         }
     }
 }
